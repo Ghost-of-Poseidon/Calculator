@@ -4,8 +4,8 @@
 A GUI-based calculator built using Python (Tkinter) for the frontend and modular functions for backend calculations.
 
 # 📂 Project Structure
+## Calculator/
 
-Calculator/
 │── backend/                # Handles calculations  
 │   ├── __init__.py         # Makes 'backend' a package  
 │   ├── calculator.py       # Core logic (addition, subtraction, etc.)  
@@ -27,24 +27,27 @@ Calculator/
 # 📦 Installation & Setup
 ## 1️⃣ Clone the Repository
 
-   git clone https://github.com/your-username/calculator.git  
-   cd calculator  
+     git clone https://github.com/your-username/calculator.git  
+     cd calculator  
 
 ## 2️⃣ Install Dependencies
 Tkinter is usually pre-installed with Python. If you get a ModuleNotFoundError, install it:
 
 For Ubuntu/Debian
-   sudo apt update  
-   sudo apt install python3-tk -y 
+ 
+     sudo apt update  
+     sudo apt install python3-tk -y 
 
 For Fedora
-   sudo dnf install python3-tkinter  
+   
+     sudo dnf install python3-tkinter  
 
 For Arch Linux
-   sudo pacman -S tk  
+
+     sudo pacman -S tk  
 
 # ▶️ Run the Calculator
-   python3 frontend/calculator_gui.py  
+     python3 frontend/calculator_gui.py  
 
 This will launch the GUI calculator where you can perform arithmetic operations.
 
